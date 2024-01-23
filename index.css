@@ -312,16 +312,41 @@ body{
     .content-head .para1,.para2{
         font-size: 12px;
     }
-
+    .user-data{
+        display: flex;
+        flex-direction: row;
+    }
     .input-email{
-        width: 5%;
-        
+        width: 75%;
+        padding: 5px 4px;
+        left: 18%;
     }
 
     .btn-email{
-        top: 5%;
-        display: block;
-        padding: 5px 12px;
+        width: 76%;
+        padding: 2px 0px;
+        top: 10%;
+        margin-top: 8px;
+        font-size: 12px;
+        left: 18%;
     }
+
+    /* .input-email{
+        width: 12%;
+        padding: 5px 6px;
+        display: block;
+        background-color: #ff1e1e;
+        position: relative;
+        z-index: 500;
+        
+    } */
+
+        /* .btn-email{
+            top: 5%;
+            display: block;
+            padding: 0px 0px;
+            width: 65%;
+            left: 18%;
+        } */
 }
 
