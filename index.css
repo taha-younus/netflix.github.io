@@ -273,18 +273,24 @@ body{
 
 
 
-@media screen and (min-width:50px) and (max-width:200px){
+@media screen and (min-width:50px) and (max-width:250px){
     .container{
         width: 100vw;
     }
 
+    .content{
+        position: relative;
+        top: 11%;
+    }
     .nav-bar{
         height: 6vh;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-top: 12px;
+        padding-top: 25px;
     }
+
+    
 
     .img-logo{
         width: 55px;
@@ -298,10 +304,7 @@ body{
         top: 10%;
     }
 
-    .content{
-        top: 30%;
-
-    }
+    
 
     .content-head h1{
         font-size: 16px;
@@ -315,6 +318,8 @@ body{
     .user-data{
         display: flex;
         flex-direction: row;
+        position: relative;
+        padding-top: 10%;
     }
     .input-email{
         width: 75%;
