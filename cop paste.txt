@@ -1,0 +1,14 @@
+@media screen and (min-width:650px) and (max-width:804px){
+    .container-2{
+        height: 95vh;
+    }
+    .content-2{
+        flex-direction: column;
+
+    }
+
+    .content-head-2{
+        height: ;
+        width: 85vw;
+    }
+}
