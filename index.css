@@ -253,6 +253,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 15px 5px;
+    cursor:pointer;
 }
 
 .qna{
