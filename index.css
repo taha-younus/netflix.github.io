@@ -263,6 +263,7 @@ body{
     display: flex;
     justify-content: space-between;
     transition: all .5s;
+    cursor:pointer;
 }
 
 .qna:hover{
