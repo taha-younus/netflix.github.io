@@ -183,7 +183,7 @@ body{
 
 .ad-1{
     position: relative;
-    left: 2%;
+    left: -2%;
     display: flex;
     width: ;
     justify-content: ;
@@ -205,23 +205,44 @@ body{
     
 }
 
+.feature-2{
+   padding: 0px;
+    width: 45vw;
+    position: relative;
+    left: -2%;
+    bottom: 2%;   
+}
+
+.head-3{
+    width: 45vw;
+}
+.feature-4 img{
+    width: 70%;
+}
+
+.head-4{
+    position: relative;
+    left: -4%;
+    width: 47vw;
+}
+
                                             /* Responsive section Start */
                                         /* Media Query Section Is Here Started  */ 
 
-                                        @media screen and (min-width:650px) and (max-width:804px){
-                                            .container-2{
-                                                height: 95vh;
-                                            }
-                                            .content-2{
-                                                flex-direction: column;
-                                        
-                                            }
-                                        
-                                            .content-head-2{
-                                                height: ;
-                                                width: 85vw;
-                                            }
-                                        }
+@media screen and (min-width:650px) and (max-width:804px){
+    .container-2{
+        height: 95vh;
+    }
+    .content-2{
+        flex-direction: column;
+
+    }
+
+    .content-head-2{
+        height: ;
+        width: 85vw;
+    }
+}
 
 
 
@@ -337,7 +358,13 @@ body{
     }
 
     .content{
-        margin-top: 0%;
+        margin-top: -2%;
+        height: 40vh;
+        flex-wrap: wrap;
+    }
+
+    .content-head h1{
+        font-size: 18px;
     }
 
     .nav-bar{
@@ -366,14 +393,14 @@ body{
     .para1{
         font-size: 20px;
         font-weight: 400;
-        margin-top: 5%;
+        margin-top: 3%;
         text-align:center;
     }
     
     .para2{
         font-size: 16px;
         font-weight: 400;
-        margin-top: 5%;
+        margin-top: 3%;
         text-align:center;
     }
 
@@ -553,6 +580,13 @@ body{
         text-align: center;
     }
 
+    .feature-2{
+        left: -20%;
+    }
+
+    .feature-2 img{
+        width: 150px;
+    }
     /* .input-email{
         width: 12%;
         padding: 5px 6px;
